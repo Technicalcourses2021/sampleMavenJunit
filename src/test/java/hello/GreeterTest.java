@@ -13,5 +13,13 @@ public class GreeterTest {
   public void greeterSaysHello() {
     assertThat(greeter.sayHello(), containsString("Bye"));
   }
+  @Test
+  public void greeterSaysHello() {
+    assertThat(greeter.sayHello(), containsString("to"));
+  }
+  @Test
+  public void greeterSaysHello() {
+    assertThat(greeter.sayHello(), containsString("great"));
+  }
 
 }
